@@ -1,0 +1,56 @@
+@import url('https://fonts.cdnfonts.com/css/8bit-wonder');
+
+*{
+   margin: 0
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form img {
+    width: 250px;
+    margin-left: 14%;
+    margin-top: -50%;
+    
+}
+
+form input {
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 1em;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 150px;
+}
+
+form button {
+    background-color: #FF99FF;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 1em;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 170px;
+    cursor: pointer;
+
+}
+
+
+
+h1 {
+    margin-bottom: 15px;
+}
+
+
+.login__button:disabled {
+    background-color: #e7dddd;
+    color:white ;
+    border-color:#e7dddd;
+    cursor:initial;
+
+}
